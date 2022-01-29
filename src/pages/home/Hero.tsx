@@ -1,8 +1,10 @@
 import React from 'react'
 
+import { CtaButton } from './CtaButton'
+
 export function Hero() {
   return (
-    <section className="flex flex-col justify-center items-center mt-20">
+    <section className="flex flex-col justify-center items-center my-20">
       <p className="text-xl">
         <img
           className="inline mr-4 relative -top-1"
@@ -21,17 +23,20 @@ export function Hero() {
         />{' '}
         present
       </p>
-      <img
-        className="my-8"
-        src="/images/logo.svg"
-        width={619}
-        height={234}
-        alt="Layer Two Amsterdam"
-      />
-      <p className="text-xl">
+      <h1>
+        <img
+          className="my-8"
+          src="/images/logo.svg"
+          width={619}
+          height={234}
+          alt="Layer Two Amsterdam"
+        />
+      </h1>
+      <p className="text-xl mb-12">
         <span className="text-2xl font-bold">April 19-20, 2022,</span> Pakhuis
         de Zwijger, Amsterdam
       </p>
+      <CtaButton />
     </section>
   )
 }
