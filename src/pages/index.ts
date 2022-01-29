@@ -1,5 +1,5 @@
+import { renderHomePage } from './home'
 import { outputPages } from './output'
-import { pages } from './pages'
 
 main().catch((e) => {
   console.error(e)
@@ -7,5 +7,6 @@ main().catch((e) => {
 })
 
 async function main() {
+  const pages = [renderHomePage()]
   outputPages(pages)
 }

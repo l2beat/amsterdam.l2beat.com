@@ -13,7 +13,7 @@ async function clean() {
 
 function buildScripts() {
   return exec(
-    `esbuild --bundle src/scripts/main.ts --outfile=build/static/scripts/main.js --minify`
+    `esbuild --bundle src/scripts/main.ts --outfile=build/scripts/main.js --minify`
   )
 }
 
@@ -22,15 +22,17 @@ function watchScripts() {
 }
 
 function buildStyles() {
-  return Promise.resolve()
+  return exec(
+    `tailwindcss -i ./src/styles/style.css -o ./build/styles/style.css`
+  )
 }
 
 function watchStyles() {
-  return gulp.watch('src/styles/**/*.scss', buildStyles)
+  return gulp.watch('src/**/*.{css,ts,tsx}', buildStyles)
 }
 
 function copyStatic() {
-  return gulp.src('src/static/**/*').pipe(gulp.dest('build/static'))
+  return gulp.src('src/static/**/*').pipe(gulp.dest('build'))
 }
 
 function watchStatic() {
@@ -42,22 +44,7 @@ function buildPages() {
 }
 
 function watchPages() {
-  return gulp.watch('src/pages/**/*.ts', buildPages)
-}
-
-async function hashStaticFiles() {
-  const manifest = await addHashes('build/static')
-  await fs.promises.writeFile(
-    'build/manifest.json',
-    JSON.stringify(manifest, null, 2)
-  )
-}
-
-async function makeEmptyManifest() {
-  await fs.promises.writeFile(
-    'build/manifest.json',
-    JSON.stringify({}, null, 2)
-  )
+  return gulp.watch('src/pages/**/*.{ts,tsx}', buildPages)
 }
 
 function serve() {
@@ -70,15 +57,11 @@ function serve() {
 
 const build = gulp.series(
   clean,
-  makeEmptyManifest,
-  gulp.parallel(buildScripts, buildStyles, buildPages, copyStatic),
-  hashStaticFiles
+  gulp.parallel(buildScripts, buildStyles, buildPages, copyStatic)
 )
 
 const watch = gulp.series(
-  clean,
-  makeEmptyManifest,
-  gulp.parallel(buildScripts, buildStyles, buildPages, copyStatic),
+  build,
   gulp.parallel(watchScripts, watchStyles, watchPages, watchStatic, serve)
 )
 
@@ -89,38 +72,6 @@ module.exports = {
 }
 
 // Utilities
-
-async function addHashes(dir, base = '/') {
-  const items = await fs.promises.readdir(dir)
-  let manifest = {}
-  for (const item of items) {
-    const fullName = path.join(dir, item)
-    if (fs.statSync(fullName).isDirectory()) {
-      const updates = await addHashes(fullName, path.join(base, item))
-      manifest = { ...manifest, ...updates }
-    } else {
-      const hash = (await sha256(fullName)).slice(0, 8)
-      const { name, ext } = path.parse(item)
-      const itemWithHash = `${name}.${hash}${ext}`
-      await fs.promises.rename(fullName, path.join(dir, itemWithHash))
-      manifest[path.join(base, item)] = path.join(base, itemWithHash)
-    }
-  }
-  return manifest
-}
-
-async function sha256(file) {
-  const fd = fs.createReadStream(file)
-  const hash = crypto.createHash('sha256')
-  hash.setEncoding('hex')
-  return new Promise((resolve) => {
-    fd.on('end', function () {
-      hash.end()
-      resolve(hash.read())
-    })
-    fd.pipe(hash)
-  })
-}
 
 function exec(command) {
   const nodeModulesHere = path.join(__dirname, './node_modules/.bin')
