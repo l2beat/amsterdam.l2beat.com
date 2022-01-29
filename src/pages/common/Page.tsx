@@ -9,7 +9,10 @@ interface Props extends HeadProps {
 
 export function Page({ children, scripts, ...head }: Props) {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className="text-[16px] font-sans font-medium bg-white text-brand"
+    >
       <Head {...head} />
       <body>
         {children}

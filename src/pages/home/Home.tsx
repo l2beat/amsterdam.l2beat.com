@@ -1,6 +1,8 @@
 import React from 'react'
 
 import { Page } from '../common'
+import { Banner } from './Banner'
+import { Hero } from './Hero'
 
 export function Home() {
   return (
@@ -12,7 +14,10 @@ export function Home() {
       stylesheets={['/styles/style.css']}
       scripts={['/scripts/main.js']}
     >
-      <h1 className="text-lg text-lime-700">Under construction</h1>
+      <Banner />
+      <main>
+        <Hero />
+      </main>
     </Page>
   )
 }
