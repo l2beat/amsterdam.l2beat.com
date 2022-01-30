@@ -1,11 +1,10 @@
 import React from 'react'
 
-import { Heading } from './Heading'
+import { Section } from './Section'
 
 export function Contact() {
   return (
-    <section className="flex flex-col justify-center items-center my-24 min-h-[500px] bg-canal bg-center bg-no-repeat">
-      <Heading color="yellow">Contact</Heading>
+    <Section className="bg-canal" title="Contact" color="yellow">
       <p className="text-xl max-w-[900px] mt-8 text-center">
         If you want to reach out and ask questions feel free to email us at:
         <br />
@@ -26,6 +25,6 @@ export function Contact() {
           @l2beatcom
         </a>
       </p>
-    </section>
+    </Section>
   )
 }

@@ -11,7 +11,7 @@ export function Page({ children, scripts, ...head }: Props) {
   return (
     <html
       lang="en"
-      className="text-[16px] font-sans font-medium bg-white text-brand"
+      className="text-[14px] md:text-[16px] font-sans font-medium bg-white text-brand"
     >
       <Head {...head} />
       <body>

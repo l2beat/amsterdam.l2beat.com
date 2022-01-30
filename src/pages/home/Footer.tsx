@@ -2,7 +2,7 @@ import React from 'react'
 
 export function Footer() {
   return (
-    <footer className="text-center my-24">
+    <footer className="text-center my-24 px-4">
       Made with ❤️ by the L2BEAT research team.
       <br />
       Copyright 2022 L2BEAT

@@ -1,11 +1,20 @@
 import React from 'react'
 
-import { Heading } from './Heading'
+import { Section } from './Section'
 
 export function About() {
   return (
-    <section className="flex flex-col justify-center items-center my-24 min-h-[500px] bg-rural bg-center bg-no-repeat">
-      <Heading color="yellow">About the event</Heading>
+    <Section
+      className="bg-rural"
+      title={
+        <>
+          About
+          <br />
+          the event
+        </>
+      }
+      color="yellow"
+    >
       <p className="text-xl max-w-[900px] mt-8">
         Layer Two Amsterdam is a two-day technical conference dedicated to
         Ethereum L2 Scaling. Meet industry leaders: builders and developers,
@@ -17,6 +26,6 @@ export function About() {
         L2BEAT we are carefully curating the agenda so that it focuses on
         aspects such as technological breakthroughs and security challenges.
       </p>
-    </section>
+    </Section>
   )
 }

@@ -11,11 +11,23 @@ export function Heading({ children, color }: HeadingProps) {
 
   return (
     <div className="flex items-center">
-      <img width={104} height={63} src={src} alt={alt} />
-      <h2 className="uppercase mx-6 text-2xl font-bold max-w-[160px] text-center">
+      <img
+        className="w-16 md:w-auto"
+        width={104}
+        height={63}
+        src={src}
+        alt={alt}
+      />
+      <h2 className="uppercase mx-6 text-2xl font-bold text-center">
         {children}
       </h2>
-      <img width={104} height={63} src={src} alt={alt} />
+      <img
+        className="w-16 md:w-auto"
+        width={104}
+        height={63}
+        src={src}
+        alt={alt}
+      />
     </div>
   )
 }

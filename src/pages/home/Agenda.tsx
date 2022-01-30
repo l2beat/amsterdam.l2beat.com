@@ -1,11 +1,10 @@
 import React from 'react'
 
-import { Heading } from './Heading'
+import { Section } from './Section'
 
 export function Agenda() {
   return (
-    <section className="flex flex-col justify-center items-center my-24 min-h-[500px]">
-      <Heading color="pink">Agenda</Heading>
+    <Section title="Agenda" color="pink">
       <p className="text-xl max-w-[900px] mt-8">
         The conference agenda is still being actively worked on and we’ll be
         sure to post updates on our social media channels. In the meantime, you
@@ -17,6 +16,6 @@ export function Agenda() {
         up! Additionally, we have a few surprises up our sleeve so be sure to
         look out for those too!
       </p>
-    </section>
+    </Section>
   )
 }
