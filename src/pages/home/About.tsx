@@ -4,7 +4,7 @@ import { Heading } from './Heading'
 
 export function About() {
   return (
-    <section className="flex flex-col justify-center items-center my-32">
+    <section className="flex flex-col justify-center items-center my-24 min-h-[500px] bg-rural bg-center bg-no-repeat">
       <Heading color="yellow">About the event</Heading>
       <p className="text-xl max-w-[900px] mt-8">
         Layer Two Amsterdam is a two-day technical conference dedicated to

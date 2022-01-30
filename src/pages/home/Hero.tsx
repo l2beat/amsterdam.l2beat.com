@@ -4,7 +4,7 @@ import { CtaButton } from './CtaButton'
 
 export function Hero() {
   return (
-    <section className="flex flex-col justify-center items-center my-20">
+    <section className="flex flex-col justify-center items-center mt-20 mb-32">
       <p className="text-xl">
         <img
           className="inline mr-4 relative -top-1"

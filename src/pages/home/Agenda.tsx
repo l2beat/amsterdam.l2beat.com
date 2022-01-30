@@ -4,7 +4,7 @@ import { Heading } from './Heading'
 
 export function Agenda() {
   return (
-    <section className="flex flex-col justify-center items-center my-32">
+    <section className="flex flex-col justify-center items-center my-24 min-h-[500px]">
       <Heading color="pink">Agenda</Heading>
       <p className="text-xl max-w-[900px] mt-8">
         The conference agenda is still being actively worked on and we’ll be

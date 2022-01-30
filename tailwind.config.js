@@ -12,6 +12,10 @@ module.exports = {
           '100%': { transform: 'translateX(-25%)' },
         },
       },
+      backgroundImage: {
+        rural: "url('/images/bg-rural.png')",
+        canal: "url('/images/bg-canal.png')",
+      },
     },
     fontFamily: {
       sans: ['Montserrat', 'sans-serif'],
