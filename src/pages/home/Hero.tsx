@@ -32,9 +32,23 @@ export function Hero() {
           alt="Layer Two Amsterdam"
         />
       </h1>
-      <p className="text-xl mb-12">
-        <span className="text-2xl font-bold">April 19-20, 2022,</span> Pakhuis
-        de Zwijger, Amsterdam
+      <p className="text-2xl mb-12">
+        <img
+          className="inline relative -top-[1px] mr-1"
+          src="/images/icon-event.svg"
+          width={24}
+          height={24}
+          alt="Date:"
+        />
+        April 19-20, 2022
+        <img
+          className="inline relative -top-[1px] ml-3 mr-1"
+          src="/images/icon-place.svg"
+          width={24}
+          height={24}
+          alt="Location:"
+        />
+        Pakhuis de Zwijger, Amsterdam
       </p>
       <CtaButton />
     </section>
