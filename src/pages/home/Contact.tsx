@@ -4,7 +4,7 @@ import { Section } from './Section'
 
 export function Contact() {
   return (
-    <Section className="bg-canal" title="Contact" color="yellow">
+    <Section title="Contact" color="pink">
       <p className="text-xl max-w-[900px] mt-8 text-center">
         If you want to reach out and ask questions feel free to email us at:
         <br />

@@ -4,7 +4,7 @@ import { Section } from './Section'
 
 export function Agenda() {
   return (
-    <Section title="Agenda" color="pink">
+    <Section className="bg-canal" title="Agenda" color="yellow">
       <p className="text-xl max-w-[900px] mt-8">
         The conference agenda is still being actively worked on and we’ll be
         sure to post updates on our social media channels. In the meantime, you

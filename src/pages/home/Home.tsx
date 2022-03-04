@@ -7,6 +7,7 @@ import { Banner } from './Banner'
 import { Contact } from './Contact'
 import { Footer } from './Footer'
 import { Hero } from './Hero'
+import { Sponsors } from './Sponsors'
 
 export function Home() {
   return (
@@ -22,6 +23,7 @@ export function Home() {
       <main>
         <Hero />
         <About />
+        <Sponsors />
         <Agenda />
         <Contact />
       </main>
