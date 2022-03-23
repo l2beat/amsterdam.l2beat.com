@@ -1,0 +1,31 @@
+{
+  "platinum": [
+    {
+      "name": "StarkWare",
+      "image": "/images/sponsors/starkware.svg",
+      "link": "https://starkware.co/"
+    },
+    {
+      "name": "Arbitrum",
+      "image": "/images/sponsors/arbitrum.png",
+      "link": "https://https://arbitrum.io/"
+    }
+  ],
+  "gold": [
+    {
+      "name": "Optimism",
+      "image": "/images/sponsors/optimism.svg",
+      "link": "https://www.optimism.io/"
+    },
+    {
+      "name": "Metis",
+      "image": "/images/sponsors/metis.svg",
+      "link": "https://www.metis.io/"
+    },
+    {
+      "name": "Boba Network",
+      "image": "/images/sponsors/boba.svg",
+      "link": "https://boba.network/"
+    }
+  ]
+}
