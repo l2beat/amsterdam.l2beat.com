@@ -19,6 +19,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ['Montserrat', 'sans-serif'],
+      mono: ['monospace', 'monospace'],
     },
     colors: {
       brand: '#132170',

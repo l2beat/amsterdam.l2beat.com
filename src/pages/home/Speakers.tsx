@@ -5,7 +5,7 @@ import { Section } from './Section'
 
 export function Speakers() {
   return (
-    <Section title="Speakers" color="yellow">
+    <Section title="Speakers" color="pink">
       <ul className="grid max-w-[1200px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 pt-8">
         {speakerList.map((speaker, i) => (
           <li className="flex flex-col items-stretch" key={i}>

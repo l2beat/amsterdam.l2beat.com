@@ -1,0 +1,398 @@
+[
+  {
+    "name": "Day 1",
+    "items": [
+      {
+        "start": "10:00",
+        "end": "10:30",
+        "type": "talk",
+        "speakers": ["Dankrad Feist"],
+        "company": "Ethereum Foundation",
+        "title": "Keynote - Still no flying cars, but at least we get rollups"
+      },
+      {
+        "start": "10:30",
+        "end": "11:00",
+        "type": "talk",
+        "speakers": ["Bartek Kiepuszewski", "Piotr Szlachciak"],
+        "company": "L2BEAT",
+        "title": "Introducing Risk Framework 2.0"
+      },
+      {
+        "start": "11:00",
+        "end": "11:15",
+        "type": "break",
+        "title": "Coffee break"
+      },
+      {
+        "start": "11:15",
+        "end": "11:45",
+        "type": "talk",
+        "speakers": ["Alan Chiu"],
+        "company": "Boba Network",
+        "title": "Hybrid Compute: Realizing the Full Potential of Web3"
+      },
+      {
+        "start": "11:45",
+        "end": "12:15",
+        "type": "talk",
+        "speakers": ["Ohad Barta"],
+        "company": "StarkWare",
+        "title": "StarkNet New Horizons"
+      },
+      {
+        "start": "12:15",
+        "end": "12:45",
+        "type": "talk",
+        "speakers": ["John Adler"],
+        "company": "Fuel Labs",
+        "title": "Induced Demand from Blockchain Resource Pricing"
+      },
+      {
+        "start": "12:45",
+        "end": "13:45",
+        "type": "break",
+        "title": "Lunch break"
+      },
+      {
+        "start": "13:45",
+        "end": "14:15",
+        "type": "talk",
+        "speakers": ["Pavel Sinelnikov"],
+        "company": "Metis",
+        "title": "Discord into Discourse: Organizational Infrastructure"
+      },
+      {
+        "start": "14:15",
+        "end": "14:15",
+        "type": "announcement",
+        "speakers": ["Tas Dienes", "Dan Shaw"],
+        "company": "Ethereum Foundation",
+        "title": "TBA"
+      },
+      {
+        "start": "14:15",
+        "end": "14:45",
+        "type": "panel",
+        "speakers": ["TBA"],
+        "company": "TBA",
+        "title": "Tradeoffs in security and decentralization"
+      },
+      {
+        "start": "14:45",
+        "end": "15:15",
+        "type": "talk",
+        "speakers": ["Aleksandr Vlasov"],
+        "company": "Matter Labs",
+        "title": "Internals of Matter Lab's zkEVM - design goals, technical challenges and tricks"
+      },
+      {
+        "start": "15:15",
+        "end": "15:30",
+        "type": "break",
+        "title": "Coffee break"
+      },
+      {
+        "start": "15:30",
+        "end": "16:00",
+        "type": "talk",
+        "speakers": ["Hadrien Croubois"],
+        "company": "OpenZeppelin",
+        "title": "Cross chain operations made easy with OpenZeppelin"
+      },
+      {
+        "start": "16:00",
+        "end": "16:30",
+        "type": "talk",
+        "speakers": ["Ed Felten"],
+        "company": "Offchain Labs",
+        "title": "Rollups and the Future of Ethereum Scaling"
+      },
+      {
+        "start": "16:30",
+        "end": "17:00",
+        "type": "talk",
+        "speakers": ["Ben Jones"],
+        "company": "Optimism",
+        "title": "Fire the Cannons: Optimism's Next-Gen Fault Proofs"
+      }
+    ]
+  },
+  {
+    "name": "Day 2 - ZK Track",
+    "items": [
+      {
+        "start": "10:00",
+        "end": "10:30",
+        "type": "talk",
+        "speakers": ["Jordi Baylina"],
+        "company": "Polygon Hermez",
+        "title": "How we are building the zkEVM"
+      },
+      {
+        "start": "10:30",
+        "end": "11:00",
+        "type": "talk",
+        "speakers": ["Chaitanya Konda"],
+        "company": "EY",
+        "title": "Polygon Nightfall and testnet launch update"
+      },
+      {
+        "start": "11:00",
+        "end": "11:15",
+        "type": "break",
+        "title": "Coffee break"
+      },
+      {
+        "start": "11:15",
+        "end": "11:45",
+        "type": "talk",
+        "speakers": ["Brendan Farmer"],
+        "company": "Polygon",
+        "title": "Building Scalable L2s with ZK"
+      },
+      {
+        "start": "11:45",
+        "end": "12:15",
+        "type": "talk",
+        "speakers": ["Bobbin Threadbare"],
+        "company": "Polygon",
+        "title": "Miden VM: the heart of Polygon Miden"
+      },
+      {
+        "start": "12:15",
+        "end": "12:45",
+        "type": "talk",
+        "speakers": ["Barry Whitehat"],
+        "company": "Ethereum Foundation",
+        "title": "EF talk on zkEVM"
+      },
+      {
+        "start": "12:45",
+        "end": "13:45",
+        "type": "break",
+        "title": "Lunch break"
+      },
+      {
+        "start": "13:45",
+        "end": "14:15",
+        "type": "talk",
+        "speakers": ["Vitaly Yakovlev"],
+        "company": "ZKX",
+        "title": "Starknet dApps: How we built DeFi 3.0 with Cairo"
+      },
+      {
+        "start": "14:15",
+        "end": "14:45",
+        "type": "panel",
+        "speakers": ["TBA"],
+        "company": "TBA",
+        "title": "zkEVM equivalance or compatibility"
+      },
+      {
+        "start": "14:45",
+        "end": "15:15",
+        "type": "talk",
+        "speakers": ["Julien Niset"],
+        "company": "Argent",
+        "title": "Why account abstraction on L2 matters"
+      },
+      {
+        "start": "15:15",
+        "end": "15:30",
+        "type": "break",
+        "title": "Coffee break"
+      },
+      {
+        "start": "15:30",
+        "end": "16:00",
+        "type": "talk",
+        "speakers": ["Remco Bloemen"],
+        "company": "Worldcoin",
+        "title": "Airdropping a billion people"
+      },
+      {
+        "start": "16:00",
+        "end": "16:30",
+        "type": "talk",
+        "speakers": ["Olivier Begassat"],
+        "company": "Consensys",
+        "title": "zkevm"
+      },
+      {
+        "start": "16:30",
+        "end": "17:00",
+        "type": "talk",
+        "speakers": ["TBA"],
+        "company": "TBA",
+        "title": "TBA"
+      }
+    ]
+  },
+  {
+    "name": "Day 2 - Beyond Rollups Track",
+    "items": [
+      {
+        "start": "10:00",
+        "end": "10:30",
+        "type": "talk",
+        "speakers": ["Valeria Yermakova"],
+        "company": "Arbitrum",
+        "title": "A history and present-day overview of Ethereum scaling solutions"
+      },
+      {
+        "start": "10:30",
+        "end": "11:00",
+        "type": "talk",
+        "speakers": ["Patrick McCorry"],
+        "company": "Infura",
+        "title": "A note on bridges and layer-2"
+      },
+      {
+        "start": "11:00",
+        "end": "11:15",
+        "type": "break",
+        "title": "Coffee break"
+      },
+      {
+        "start": "11:15",
+        "end": "11:45",
+        "type": "talk",
+        "speakers": ["Will Harborne"],
+        "company": "DeversiFi",
+        "title": "Rollup Glue - enabling users on L2 to access cross-chain DeFi"
+      },
+      {
+        "start": "11:45",
+        "end": "12:15",
+        "type": "talk",
+        "speakers": ["Anton Permenev"],
+        "company": "ChainSecurity",
+        "title": "DeFi security issues when building on L2s"
+      },
+      {
+        "start": "12:15",
+        "end": "12:45",
+        "type": "talk",
+        "speakers": ["TBA"],
+        "company": "TBA",
+        "title": "TBA"
+      },
+      {
+        "start": "12:45",
+        "end": "13:45",
+        "type": "break",
+        "title": "Lunch break"
+      },
+      {
+        "start": "13:45",
+        "end": "14:15",
+        "type": "talk",
+        "speakers": ["Jacobo Toll-Messia"],
+        "company": "Nahmii",
+        "title": "Improving Rollups: The Power of State Pools"
+      },
+      {
+        "start": "14:15",
+        "end": "14:45",
+        "type": "talk",
+        "speakers": ["TBA"],
+        "company": "TBA",
+        "title": "TBA"
+      },
+      {
+        "start": "14:45",
+        "end": "15:15",
+        "type": "talk",
+        "speakers": ["Emily Herbert"],
+        "company": "Fuel Labs",
+        "title": "Developing Smart Contracts in Sway"
+      },
+      {
+        "start": "15:15",
+        "end": "15:30",
+        "type": "break",
+        "title": "Coffee break"
+      },
+      {
+        "start": "15:30",
+        "end": "16:00",
+        "type": "talk",
+        "speakers": ["Daniel Kmak"],
+        "company": "Nervos Network",
+        "title": "Optimism beyond Ethereum: EVM in non-EVM chains"
+      },
+      {
+        "start": "16:00",
+        "end": "16:30",
+        "type": "talk",
+        "speakers": ["Jacob Caban-Tomski"],
+        "company": "Ethereum Foundation",
+        "title": "Gas prices at the L2 pump getting you down? Carpool with BLS Wallet!"
+      },
+      {
+        "start": "16:30",
+        "end": "17:00",
+        "type": "talk",
+        "speakers": ["TBA"],
+        "company": "TBA",
+        "title": "TBA"
+      }
+    ]
+  },
+  {
+    "name": "Day 2 - Workshops",
+    "items": [
+      {
+        "start": "10:00",
+        "end": "11:00",
+        "type": "workshop",
+        "speakers": ["Yuan Su"],
+        "company": "Metis",
+        "title": "Decentralizing optimistic rollup"
+      },
+      {
+        "start": "11:00",
+        "end": "11:15",
+        "type": "break",
+        "title": "Coffee break"
+      },
+      {
+        "start": "11:15",
+        "end": "12:45",
+        "type": "workshop",
+        "speakers": ["TBA"],
+        "company": "TBA",
+        "title": "L1 and L2 Dev session"
+      },
+      {
+        "start": "12:45",
+        "end": "13:45",
+        "type": "break",
+        "title": "Lunch break"
+      },
+      {
+        "start": "13:45",
+        "end": "15:15",
+        "type": "workshop",
+        "speakers": ["Alex Gluchowski"],
+        "company": "Matter Labs",
+        "title": "zkSync 2.0 for Builders"
+      },
+      {
+        "start": "15:15",
+        "end": "15:30",
+        "type": "break",
+        "title": "Coffee break"
+      },
+      {
+        "start": "15:30",
+        "end": "17:00",
+        "type": "workshop",
+        "speakers": ["Joe Andrews"],
+        "company": "Aztec",
+        "title": "Private DeFi in 100 lines of Code or Less"
+      }
+    ]
+  }
+]
