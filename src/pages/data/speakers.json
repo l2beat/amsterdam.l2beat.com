@@ -1,0 +1,104 @@
+[
+  {
+    "name": "Alan Chiu",
+    "company": "Boba Network",
+    "bio": "Alan is Founder and CEO of Boba Network. He has more than 20 years of company building and investing experience, with a background in distributed systems, enterprise software, and fintech. Alan serves on the Stanford Graduate School of Business Alumni Board, as well as the board of Stanford Angels and Entrepreneurs as Co-President.",
+    "image": "/images/speakers/alan-chiu.jpg"
+  },
+  {
+    "name": "Aleksandr Vlasov",
+    "company": "Matter Labs",
+    "bio": "Ethereum enthusiast, Co-founder of Matter Labs.",
+    "image": "/images/speakers/missing.jpg"
+  },
+  {
+    "name": "Bobbin Threadbare",
+    "company": "Polygon",
+    "bio": "Bobbin Threadbare is a project lead for Polygon Miden. Prior to joining Polygon, Bobbin was a core ZK researcher at Facebook's Novi where he led the development of Winterfell, a highly-performant STARK prover and verifier. Bobbin has made numerous contributions to the STARK-based systems including genSTARK library, Distaff VM, as well as AirScript and AirAssembly languages.",
+    "image": "/images/speakers/bobbin-threadbare.jpg"
+  },
+  {
+    "name": "Brendan Farmer",
+    "company": "Polygon",
+    "bio": "Brendan studied math and philosophy before starting Mir, a ZK L1 designed to provide privacy and scalability. The Mir team joined Polygon, becoming Polygon Zero, and released Plonky2, which set a new benchmark for ZKP performance. Polygon Zero is focused on building a scalable ZK L2 to onboard the next billion users to Ethereum.",
+    "image": "/images/speakers/brendan-farmer.jpg"
+  },
+  {
+    "name": "Dan Shaw",
+    "company": "Ethereum Foundation",
+    "bio": "Dan Shaw advisor at Ethereum Foundation for Enterprise Community. Dan is an engineer who like to work with people. An open Source veteran, Dan helped bring Node.js to the Enterprise and has worked with the Node.js Foundation, LF, CNCF, OSI, and now the EEA. Dan has founded 3 tech companies: Cor.dev and NodeSource, and The Node Firm.",
+    "image": "/images/speakers/dan-shaw.jpg"
+  },
+  {
+    "name": "Dankrad Feist",
+    "company": "Ethereum Foundation",
+    "bio": "Dankrad Feist is an Ethereum researcher with a background in Theoretical Physics and Technology. Since joining the Ethereum Foundation in 2019, he has worked on topics that involve applied cryptography, such as sharding, statelessness, the proof of custody and other topics.",
+    "image": "/images/speakers/dankrad-feist.jpg"
+  },
+  {
+    "name": "Ed Felten",
+    "company": "Offchain Labs",
+    "bio": "Ed Felten is Co-founder and Chief Scientist at Offchain Labs, the makers of Arbitrum. He was previously the Kahn Professor of Computer Science and Public Affairs at Princeton University, and served on the White House staff as Deputy United States Chief Technology Officer. He is a member of the U.S. National Academy of Engineering and a Fellow of the ACM.",
+    "image": "/images/speakers/ed-felten.jpg"
+  },
+  {
+    "name": "Jacobo Toll-Messia",
+    "company": "Nahmi",
+    "bio": "Jacobo Toll-Messia, Founder and CEO at Nahmii AS, was a managing consultant for IBM Global Business services before launching Nahmi AS. At IBM, he specialized in product and business development, strategic planning, distributed systems, and data management. Before that, he was a program manager and country manager at Epsis. Jacobo is a thought leader and expert in cryptocurrency, blockchain, and the Web3 industry.",
+    "image": "/images/speakers/jacobo-toll-messia.jpg"
+  },
+  {
+    "name": "John Adler",
+    "company": "Fuel Labs",
+    "bio": "John is a PhD dropout (for real) and co-founder of Celestia Labs and Fuel Labs. Previously, he was a scalability researcher at ConsenSys, where he created the optimistic rollup design paradigm.",
+    "image": "/images/speakers/john-adler.jpg"
+  },
+  {
+    "name": "Julien Niset",
+    "company": "Argent",
+    "bio": "Julien is the Chief Science Officer and co-founder of Argent. He holds a PhD in Physics from Université libre de Bruxelles with a focus on Quantum Information and Quantum Cryptography. He has authored several publications in leading peer reviewed scientific journals and is the author of three patents: for quantum random number generation, distribution and use in novel cryptographic schemes.",
+    "image": "/images/speakers/julien-niset.jpg"
+  },
+  {
+    "name": "Ohad Barta",
+    "company": "StarkWare",
+    "bio": "Ohad Barta has been a product manager at StarkWare for two years. He is involved in numerous projects building on both StarkNet and StarkEx. Ohad came to StarkWare with 9 years of prior experience in theoretical cryptography and code development.",
+    "image": "/images/speakers/ohad-barta.jpg"
+  },
+  {
+    "name": "Patrick McCorry",
+    "company": "Infura",
+    "bio": "Patrick McCorry is an Engineer (more like Intern) at Infura. He was an Assistant Professor at King's College London in Cryptocurrencies and Security Engineering. As well, he was a researcher at University College London, University of Illinois at Urbana-Champaign and Newcastle University.",
+    "image": "/images/speakers/patrick-mccorry.jpg"
+  },
+  {
+    "name": "Pavel Sinelnikov",
+    "company": "Metis",
+    "bio": "Pavel has been in the Ethereum ecosystem since 2017 and has led educational workshops for CryptoChicks, ETHDenver, and RBC. Pavel currently works as the Integration Lead at Metis and helps integrate projects at all stages of development into the Metis ecosystem.",
+    "image": "/images/speakers/pavel-sinelnikov.jpg"
+  },
+  {
+    "name": "Tas Dienes",
+    "company": "Ethereum Foundation",
+    "bio": "Tas Dienes works on ecosystem support at the Ethereum Foundation, with a focus on supporting the enterprise ecosystem.",
+    "image": "/images/speakers/tas-dienes.jpg"
+  },
+  {
+    "name": "Valeria Yermakova",
+    "company": "Offchain Labs",
+    "bio": "Product Design Lead at Arbitrum, former web2 founder, current handstand aficionado.",
+    "image": "/images/speakers/valeria-yermakova.jpg"
+  },
+  {
+    "name": "Will Harborne",
+    "company": "DeversiFi",
+    "bio": "Will is the founder of DeversiFi, an application specific L2 powered by zero-knowledge proofs, as well as the co-founder of ZKValidator. DeversiFi is focused on making DeFi yield and trading opportunities accessible from one easy and low-friction interface.",
+    "image": "/images/speakers/will-harborne.jpg"
+  },
+  {
+    "name": "Yuan Su",
+    "company": "Metis",
+    "bio": "A visionary and transformative leader, with a hybrid skill set of technology and business. Yuan received his Bachelor of Computer Science with Honors at Acadia University and his Master of Business Administration (M.B.A.), Corporate Strategy, and Leadership at the University of Toronto. Quickly ascended the ranks to become Technical & Engagement Lead at IBM Canada, and moved on to become Co-Founder & Tech Lead at Metis.",
+    "image": "/images/speakers/yuan-su.jpg"
+  }
+]

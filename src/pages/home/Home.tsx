@@ -2,11 +2,11 @@ import React from 'react'
 
 import { Page } from '../common'
 import { About } from './About'
-import { Agenda } from './Agenda'
 import { Banner } from './Banner'
 import { Contact } from './Contact'
 import { Footer } from './Footer'
 import { Hero } from './Hero'
+import { Speakers } from './Speakers'
 import { Sponsors } from './Sponsors'
 
 export function Home() {
@@ -24,7 +24,7 @@ export function Home() {
         <Hero />
         <About />
         <Sponsors />
-        <Agenda />
+        <Speakers />
         <Contact />
       </main>
       <Footer />
