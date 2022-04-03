@@ -27,5 +27,24 @@
       "image": "/images/sponsors/boba.svg",
       "link": "https://boba.network/"
     }
+  ],
+  "silver": [
+    {
+      "name": "Nervos",
+      "image": "/images/sponsors/nervos.svg",
+      "link": "https://www.nervos.org/"
+    },
+    {
+      "name": "Fuel",
+      "image": "/images/sponsors/fuel.svg",
+      "link": "https://fuel.network/"
+    }
+  ],
+  "party": [
+    {
+      "name": "zkSync",
+      "image": "/images/sponsors/zksync.svg",
+      "link": "https://zksync.io/"
+    }
   ]
 }
