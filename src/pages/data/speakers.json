@@ -24,12 +24,6 @@
     "image": "/images/speakers/brendan-farmer.jpg"
   },
   {
-    "name": "Dan Shaw",
-    "company": "Ethereum Foundation",
-    "bio": "Dan Shaw advisor at Ethereum Foundation for Enterprise Community. Dan is an engineer who like to work with people. An open Source veteran, Dan helped bring Node.js to the Enterprise and has worked with the Node.js Foundation, LF, CNCF, OSI, and now the EEA. Dan has founded 3 tech companies: Cor.dev and NodeSource, and The Node Firm.",
-    "image": "/images/speakers/dan-shaw.jpg"
-  },
-  {
     "name": "Dankrad Feist",
     "company": "Ethereum Foundation",
     "bio": "Dankrad Feist is an Ethereum researcher with a background in Theoretical Physics and Technology. Since joining the Ethereum Foundation in 2019, he has worked on topics that involve applied cryptography, such as sharding, statelessness, the proof of custody and other topics.",

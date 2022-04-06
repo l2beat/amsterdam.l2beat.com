@@ -64,14 +64,14 @@
       },
       {
         "start": "14:15",
-        "end": "14:15",
+        "end": "14:20",
         "type": "announcement",
-        "speakers": ["Tas Dienes", "Dan Shaw"],
+        "speakers": ["Tas Dienes"],
         "company": "Ethereum Foundation",
-        "title": "TBA"
+        "title": "Announcement of a Layer 2 standards group managed by OASIS"
       },
       {
-        "start": "14:15",
+        "start": "14:20",
         "end": "14:45",
         "type": "panel",
         "speakers": ["TBA"],
@@ -334,9 +334,9 @@
         "start": "16:30",
         "end": "17:00",
         "type": "talk",
-        "speakers": ["TBA"],
-        "company": "TBA",
-        "title": "TBA"
+        "speakers": ["Faina Shalts"],
+        "company": "Consensys",
+        "title": "The Layer 2 Tooling Landscape: Where We Are and Where We're (Hopefully) Going"
       }
     ]
   },
