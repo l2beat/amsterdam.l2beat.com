@@ -44,7 +44,7 @@ function buildPages() {
 }
 
 function watchPages() {
-  return gulp.watch('src/pages/**/*.{ts,tsx}', buildPages)
+  return gulp.watch('src/pages/**/*.{ts,tsx,json}', buildPages)
 }
 
 function serve() {

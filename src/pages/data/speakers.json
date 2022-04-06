@@ -9,7 +9,7 @@
     "name": "Aleksandr Vlasov",
     "company": "Matter Labs",
     "bio": "Ethereum enthusiast, Co-founder of Matter Labs.",
-    "image": "/images/speakers/missing.jpg"
+    "image": "/images/speakers/aleksandr-vlasov.jpg"
   },
   {
     "name": "Bobbin Threadbare",
@@ -94,5 +94,65 @@
     "company": "Metis",
     "bio": "A visionary and transformative leader, with a hybrid skill set of technology and business. Yuan received his Bachelor of Computer Science with Honors at Acadia University and his Master of Business Administration (M.B.A.), Corporate Strategy, and Leadership at the University of Toronto. Quickly ascended the ranks to become Technical & Engagement Lead at IBM Canada, and moved on to become Co-Founder & Tech Lead at Metis.",
     "image": "/images/speakers/yuan-su.jpg"
+  },
+  {
+    "name": "Ben Jones",
+    "company": "Optimism",
+    "bio": "Ben \"Weird ETH Yankovic\" Jones is a co-founder and Chief Scientist at Optimism. Prior to Optimism he worked on Ethereum's CBC Casper team.  In his free time he works on crypto music.",
+    "image": "/images/speakers/ben-jones.jpg"
+  },
+  {
+    "name": "Chaitanya Konda",
+    "company": "EY",
+    "bio": "Chaitanya is a Cryptography and Blockchain Researcher working in EY's Blockchain R&D team. She works on scalable privacy solutions for public blockchains. She led the development of Nightfall 1 project and currently is leading the deployment of Polygon Nightfall to mainnet in partnership with Polygon.",
+    "image": "/images/speakers/chaitanya-konda.jpg"
+  },
+  {
+    "name": "Daniel Kmak",
+    "company": "Nervos",
+    "bio": "Blockchain developer at Nervos. Currently focused on UTXO-blockchains and EVM rollups. In the space since 2017. Previously worked for Ethereum Alarm Clock, Polymath, Energy Web Foundation.",
+    "image": "/images/speakers/daniel-kmak.jpg"
+  },
+  {
+    "name": "Emily Herbert",
+    "company": "Fuel Labs",
+    "bio": "Emily is a compiler engineer at Fuel Labs, working on the Sway compiler. She holds a MS in Computer Science from the University of Massachusetts Amherst and was a PhD student at Northeastern University (before she dropped out), where she specialized in programming languages and compilers work. Before joining Fuel Labs, Emily spent time at both Google and NASA, focusing on combining the domains of programming languages and networking.",
+    "image": "/images/speakers/emily-herbert.jpg"
+  },
+  {
+    "name": "Hadrien Croubois",
+    "company": "OpenZeppelin",
+    "bio": "Hadrien is French, has a Ph.D. in computer science from the École Normale Supérieure de Lyon, and has been working as a smart-contracts engineer since 2017. Currently he is a part of the OpenZeppelin development team, working on the open-source smart-contracts library and the associated tooling.",
+    "image": "/images/speakers/hadrien-croubois.jpg"
+  },
+  {
+    "name": "Jacob Caban-Tomski",
+    "company": "Ethereum Foundation",
+    "bio": "Developer working on scaling solutions using L2s for Ethereum to lower costs and enable more people from around world to participate and enjoy the benefits of using Web3.",
+    "image": "/images/speakers/jacob-caban-tomski.jpg"
+  },
+  {
+    "name": "Jordi Baylina",
+    "company": "Polygon",
+    "bio": "Jordi leads the technical development of the Polygon Hermez zkRollup and is currently working on the implementation of the zkEVM. He is the co-founder of the White Hat Group, the author of the MiniMe token contract, the elliptic curves Solidity library, as well as numerous other established contracts in the Ethereum space. Jordi is also a well-respected auditor as well as the co-founder of the donation platform Giveth, DAppNode, Iden3 and most recently, Polygon Hermez.",
+    "image": "/images/speakers/jacob-caban-tomski.jpg"
+  },
+  {
+    "name": "Oliver Begassat",
+    "company": "Consensys",
+    "bio": "Olivier Bégassat is part of the ConsenSys Applied Research RnD team. His current interest is around developping a zk-evm.",
+    "image": "/images/speakers/oliver-begassat.jpg"
+  },
+  {
+    "name": "Théodore Chapuis-Chkaiban",
+    "company": "Consensys",
+    "bio": "Theodore Chapuis-Chkaiban is an applied researcher in Cryptography at ConsenSys Protocols R&D team. His research interests lie at the intersection of cryptography and computer architecture design. He is the co-author of a paper recently published on EthResearch specifying a model for a zk-EVM which is currently being implemented.",
+    "image": "/images/speakers/theodore-chapuis-chkaiban.jpg"
+  },
+  {
+    "name": "Vitaly Yakovlev",
+    "company": "ZKX",
+    "bio": "Vitaly is the CTO at ZKX, where he leads all aspects of the technology and innovation of a suite of Web3 products. He is a strategic, business-driven leader with 20+ years of experience and specializes in developing operational strategies to assure business growth through emerging technologies and product-market-fit.",
+    "image": "/images/speakers/vitaly-yakovlev.jpg"
   }
 ]
