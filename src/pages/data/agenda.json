@@ -223,9 +223,9 @@
         "start": "16:30",
         "end": "17:00",
         "type": "talk",
-        "speakers": ["TBA"],
-        "company": "TBA",
-        "title": "TBA"
+        "speakers": ["Ye Zhang"],
+        "company": "Scroll Tech",
+        "title": "zkEVM design and optimizations"
       }
     ]
   },
