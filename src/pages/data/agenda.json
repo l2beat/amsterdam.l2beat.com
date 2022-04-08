@@ -215,9 +215,9 @@
         "start": "16:00",
         "end": "16:30",
         "type": "talk",
-        "speakers": ["Olivier Begassat"],
+        "speakers": ["Olivier Begassat", "Théodore Chapuis-Chkaiban"],
         "company": "Consensys",
-        "title": "zkevm"
+        "title": "A look into the zk-evm"
       },
       {
         "start": "16:30",
