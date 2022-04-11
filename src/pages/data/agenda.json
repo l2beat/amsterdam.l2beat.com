@@ -274,9 +274,9 @@
         "start": "12:15",
         "end": "12:45",
         "type": "talk",
-        "speakers": ["TBA"],
-        "company": "TBA",
-        "title": "TBA"
+        "speakers": ["Vaibhav Chellani"],
+        "company": "Socket",
+        "title": "True Bridges vs Liquidity Networks"
       },
       {
         "start": "12:45",
