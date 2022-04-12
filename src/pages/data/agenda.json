@@ -148,7 +148,7 @@
         "end": "11:45",
         "type": "talk",
         "speakers": ["Brendan Farmer"],
-        "company": "Polygon",
+        "company": "Polygon Zero",
         "title": "Building Scalable L2s with ZK"
       },
       {
@@ -156,7 +156,7 @@
         "end": "12:15",
         "type": "talk",
         "speakers": ["Bobbin Threadbare"],
-        "company": "Polygon",
+        "company": "Polygon Miden",
         "title": "Miden VM: the heart of Polygon Miden"
       },
       {
