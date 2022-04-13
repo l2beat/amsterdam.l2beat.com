@@ -1,5 +1,7 @@
+import agenda from './data/agenda.json'
 import { renderHomePage } from './home'
 import { outputPages } from './output'
+import { renderTrack } from './tracks'
 
 main().catch((e) => {
   console.error(e)
@@ -7,6 +9,9 @@ main().catch((e) => {
 })
 
 async function main() {
-  const pages = [renderHomePage()]
+  const pages = [
+    renderHomePage(),
+    ...agenda.map((track, i) => renderTrack({ id: i + 1, track })),
+  ]
   outputPages(pages)
 }
