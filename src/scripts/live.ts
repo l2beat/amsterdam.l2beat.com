@@ -41,7 +41,7 @@ function updateLiveBadge() {
       wrapper.dataset.liveBadge = 'true'
       const child = document.createElement('span')
       child.className = 'uppercase px-2 py-0.5 bg-red text-pure'
-      child.innerHTML = 'live'
+      child.innerHTML = 'Live now'
       wrapper.appendChild(child)
       wrapper.appendChild(document.createTextNode(' '))
       cell.prepend(wrapper)

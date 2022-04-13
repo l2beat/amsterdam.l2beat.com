@@ -33,30 +33,30 @@
       },
       {
         "start": "11:15",
-        "end": "12:00",
+        "end": "11:45",
         "type": "panel",
         "speakers": ["TBA"],
         "company": "TBA",
-        "title": "Are current rollups sufficiently decentralised ?"
+        "title": "Are current rollups sufficiently decentralized?"
       },
       {
-        "start": "12:00",
-        "end": "12:30",
+        "start": "11:45",
+        "end": "12:15",
         "type": "talk",
         "speakers": ["Ohad Barta"],
         "company": "StarkWare",
         "title": "StarkNet New Horizons"
       },
       {
-        "start": "12:30",
-        "end": "13:00",
+        "start": "12:15",
+        "end": "12:45",
         "type": "talk",
         "speakers": ["Ed Felten"],
         "company": "Offchain Labs",
         "title": "Rollups and the Future of Ethereum Scaling"
       },
       {
-        "start": "13:00",
+        "start": "12:45",
         "end": "13:45",
         "type": "break",
         "title": "🥪 Lunch break 🥪"
@@ -192,7 +192,7 @@
         "end": "14:15",
         "type": "talk",
         "speakers": ["Olivier Begassat", "Théodore Chapuis-Chkaiban"],
-        "company": "Consensys",
+        "company": "ConsenSys",
         "title": "A look into the zk-evm"
       },
       {
@@ -209,7 +209,7 @@
         "type": "panel",
         "speakers": ["TBA"],
         "company": "TBA",
-        "title": "Do we need zkEVM equivalance or EVM compatibility is sufficient ?"
+        "title": "Do we need zkEVM equivalence or is EVM compatibility sufficient?"
       },
       {
         "start": "15:15",
@@ -356,7 +356,7 @@
         "end": "17:00",
         "type": "talk",
         "speakers": ["Faina Shalts"],
-        "company": "Consensys",
+        "company": "ConsenSys",
         "title": "The Layer 2 Tooling Landscape: Where We Are and Where We're (Hopefully) Going"
       }
     ]
