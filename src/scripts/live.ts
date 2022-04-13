@@ -17,7 +17,11 @@ for (const day of agenda) {
   for (const item of day.items) {
     const start = new Date(`${day.date}T${item.start}:00+02:00`)
     const end = new Date(`${day.date}T${item.end}:00+02:00`)
-    if (item.type !== 'break' && item.type !== 'check-in') {
+    if (
+      item.type !== 'break' &&
+      item.type !== 'check-in' &&
+      item.type !== 'party'
+    ) {
       timedItems.push({ ...item, start, end, row })
     }
     row += 1
