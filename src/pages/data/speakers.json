@@ -139,13 +139,13 @@
   },
   {
     "name": "Oliver Begassat",
-    "company": "Consensys",
+    "company": "ConsenSys",
     "bio": "Olivier Bégassat is part of the ConsenSys Applied Research RnD team. His current interest is around developping a zk-evm.",
     "image": "/images/speakers/oliver-begassat.jpg"
   },
   {
     "name": "Théodore Chapuis-Chkaiban",
-    "company": "Consensys",
+    "company": "ConsenSys",
     "bio": "Theodore Chapuis-Chkaiban is an applied researcher in Cryptography at ConsenSys Protocols R&D team. His research interests lie at the intersection of cryptography and computer architecture design. He is the co-author of a paper recently published on EthResearch specifying a model for a zk-EVM which is currently being implemented.",
     "image": "/images/speakers/theodore-chapuis-chkaiban.jpg"
   },
@@ -154,5 +154,23 @@
     "company": "ZKX",
     "bio": "Vitaly is the CTO at ZKX, where he leads all aspects of the technology and innovation of a suite of Web3 products. He is a strategic, business-driven leader with 20+ years of experience and specializes in developing operational strategies to assure business growth through emerging technologies and product-market-fit.",
     "image": "/images/speakers/vitaly-yakovlev.jpg"
+  },
+  {
+    "name": "Alex Gluchowski",
+    "company": "zkSync",
+    "bio": "Alex is a software architect with over 15 years of experience in engineering and startups. Currently, he is a co-founder at Matter Labs, an R&D company on a mission to solve blockchain scalability challenge with zero-knowledge proofs. Alex is deeply passionate about individual freedom, self-ownership and decentralization.",
+    "image": "/images/speakers/alex-gluchowski.jpg"
+  },
+  {
+    "name": "Joe Andrews",
+    "company": "Aztec",
+    "bio": "Joe is the Head of Product and Co-founder at Aztec. He wears many hats but mainly focuses on helping developers build out bridge interactions, the Aztec SDK and building zk.money.",
+    "image": "/images/speakers/joe-andrews.jpg"
+  },
+  {
+    "name": "Faina Shalts",
+    "company": "ConsenSys",
+    "bio": "Faina Shalts is a Lead Blockchain Engineer at ConsenSys. Since joining in 2018, she has worked on Truffle’s open source tool suite. She now leads the Layer 2/Scaling team at Truffle, seeking to make Layer 2 adoption as easy as possible for developers.",
+    "image": "/images/speakers/faina-shalts.jpg"
   }
 ]
