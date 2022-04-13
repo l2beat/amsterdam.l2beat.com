@@ -122,6 +122,13 @@
         "speakers": ["Hadrien Croubois"],
         "company": "OpenZeppelin",
         "title": "Cross chain operations made easy with OpenZeppelin"
+      },
+      {
+        "start": "17:00",
+        "end": "20:00",
+        "type": "party",
+        "title": "🥂 Open bar at Kanteen25 by zkSync 🥂",
+        "link": "https://g.page/kanteen25?share"
       }
     ]
   },

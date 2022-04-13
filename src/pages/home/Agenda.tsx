@@ -4,6 +4,8 @@ import React from 'react'
 import agenda from '../data/agenda.json'
 import { Section } from './Section'
 
+const specialTypes = ['break', 'check-in', 'party']
+
 export function Agenda() {
   return (
     <Section
@@ -25,24 +27,36 @@ export function Agenda() {
                   </th>
                 </tr>
                 <tr>
-                  <th className="text-left text-md uppercase py-1">Time</th>
-                  <th className="text-left text-md uppercase py-1">Speaker</th>
-                  <th className="text-left text-md uppercase py-1">Title</th>
+                  <th className="text-left text-md uppercase py-1 px-2">
+                    Time
+                  </th>
+                  <th className="text-left text-md uppercase py-1 px-2">
+                    Speaker
+                  </th>
+                  <th className="text-left text-md uppercase py-1 px-2">
+                    Title
+                  </th>
                 </tr>
                 {track.items.map((item, i) => (
-                  <tr key={i} className={classnames(i % 2 === 0 && 'bg-pure')}>
-                    <td className="whitespace-pre font-mono pr-2 py-2">
+                  <tr
+                    key={i}
+                    className={classnames(
+                      i % 2 === 0 && item.type !== 'party' && 'bg-pure',
+                      item.type === 'party' && 'bg-[#4e529a] text-pure'
+                    )}
+                  >
+                    <td className="whitespace-pre font-mono p-2">
                       {item.start} - {item.end}
                     </td>
-                    {item.type !== 'break' && item.type !== 'check-in' && (
+                    {!specialTypes.includes(item.type) && (
                       <>
-                        <td className="py-2">
+                        <td className="p-2">
                           <p className="font-bold whitespace-pre-line">
                             {item.speakers?.join('\n')}
                           </p>
                           <p className="text-sm">{item.company}</p>
                         </td>
-                        <td className="py-2">
+                        <td className="p-2">
                           {item.type !== 'talk' && (
                             <>
                               <span className="uppercase px-2 py-0.5 bg-accent">
@@ -54,12 +68,28 @@ export function Agenda() {
                         </td>
                       </>
                     )}
-                    {(item.type === 'break' || item.type === 'check-in') && (
+                    {specialTypes.includes(item.type) && item.type !== 'party' && (
                       <td
                         colSpan={2}
-                        className="text-center md:text-left md:pl-8 py-2 uppercase font-bold"
+                        className="text-center md:text-left md:pl-8 p-2 uppercase font-bold"
                       >
                         {item.title}
+                      </td>
+                    )}
+
+                    {item.type === 'party' && (
+                      <td
+                        colSpan={2}
+                        className="text-center md:text-left md:pl-8"
+                      >
+                        <a
+                          className="block w-full p-4 text-xl"
+                          href={item.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {item.title} <small>(click me)</small>
+                        </a>
                       </td>
                     )}
                   </tr>
