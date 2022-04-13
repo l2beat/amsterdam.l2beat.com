@@ -1,11 +1,12 @@
 import React, { ReactNode } from 'react'
 
 interface HeadingProps {
+  id: string
   children: ReactNode
   color: 'yellow' | 'pink'
 }
 
-export function Heading({ children, color }: HeadingProps) {
+export function Heading({ children, id, color }: HeadingProps) {
   const src = `/images/flowers-${color}.svg`
   const alt = `${color === 'yellow' ? 'Yellow' : 'Pink'} Ethereum tulips`
 
@@ -18,7 +19,7 @@ export function Heading({ children, color }: HeadingProps) {
         src={src}
         alt={alt}
       />
-      <h2 className="uppercase mx-6 text-2xl font-bold text-center">
+      <h2 id={id} className="uppercase mx-6 text-2xl font-bold text-center">
         {children}
       </h2>
       <img

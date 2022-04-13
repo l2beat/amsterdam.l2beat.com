@@ -6,7 +6,7 @@ import { Section } from './Section'
 
 export function Sponsors() {
   return (
-    <Section title="Sponsors" color="pink">
+    <Section id="sponsors" title="Sponsors" color="pink">
       <h3 className="text-xl my-8">Platinum Sponsors</h3>
       <div className="grid grid-cols-2 gap-2 sm:gap-4 max-w-[1000px]">
         {sponsorsList.platinum.map((sponsor, i) => (

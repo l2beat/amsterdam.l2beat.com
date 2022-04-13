@@ -6,7 +6,12 @@ import { Section } from './Section'
 
 export function Agenda() {
   return (
-    <Section title="Agenda" className="max-w-[1200px] mx-auto" color="yellow">
+    <Section
+      id="agenda"
+      title="Agenda"
+      className="max-w-[1200px] mx-auto"
+      color="yellow"
+    >
       <div className="w-full overflow-auto mt-8">
         <table className="min-w-full">
           <tbody>

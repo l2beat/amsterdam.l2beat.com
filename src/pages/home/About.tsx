@@ -5,6 +5,7 @@ import { Section } from './Section'
 export function About() {
   return (
     <Section
+      id="about"
       className="bg-rural"
       title={
         <>

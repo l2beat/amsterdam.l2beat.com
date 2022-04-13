@@ -6,11 +6,18 @@ import { Heading } from './Heading'
 export interface SectionProps {
   className?: string
   title: ReactNode
+  id: string
   color: 'yellow' | 'pink'
   children: ReactNode
 }
 
-export function Section({ className, title, color, children }: SectionProps) {
+export function Section({
+  className,
+  id,
+  title,
+  color,
+  children,
+}: SectionProps) {
   return (
     <section
       className={cx(
@@ -18,7 +25,11 @@ export function Section({ className, title, color, children }: SectionProps) {
         className
       )}
     >
-      <Heading color={color}>{title}</Heading>
+      <a href={`#${id}`}>
+        <Heading id={id} color={color}>
+          {title}
+        </Heading>
+      </a>
       {children}
     </section>
   )
