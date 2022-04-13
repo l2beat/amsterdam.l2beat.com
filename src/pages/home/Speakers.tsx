@@ -14,8 +14,11 @@ export function Speakers() {
               <div className="flex items-center gap-4 mb-2 px-4">
                 <img
                   src={speaker.image}
+                  width="32"
+                  height="32"
                   className="w-32 h-32 rounded-full"
                   style={{ filter: 'sepia(100%) hue-rotate(191deg) ' }}
+                  alt={`Photograph of ${speaker.name}`}
                 />
                 <div>
                   <h3 className="text-xl font-bold">{speaker.name}</h3>

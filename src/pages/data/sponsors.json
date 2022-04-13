@@ -3,11 +3,15 @@
     {
       "name": "StarkWare",
       "image": "/images/sponsors/starkware.svg",
+      "width": 400,
+      "height": 74,
       "link": "https://starkware.co/"
     },
     {
       "name": "Arbitrum",
       "image": "/images/sponsors/arbitrum.png",
+      "width": 3522,
+      "height": 678,
       "link": "https://arbitrum.io/"
     }
   ],
@@ -15,16 +19,22 @@
     {
       "name": "Optimism",
       "image": "/images/sponsors/optimism.svg",
+      "width": 400,
+      "height": 56,
       "link": "https://www.optimism.io/"
     },
     {
       "name": "Metis",
       "image": "/images/sponsors/metis.svg",
+      "width": 400,
+      "height": 86,
       "link": "https://www.metis.io/"
     },
     {
       "name": "Boba Network",
       "image": "/images/sponsors/boba.svg",
+      "width": 400,
+      "height": 159,
       "link": "https://boba.network/"
     }
   ],
@@ -32,11 +42,15 @@
     {
       "name": "Nervos",
       "image": "/images/sponsors/nervos.svg",
+      "width": 468,
+      "height": 285,
       "link": "https://www.nervos.org/"
     },
     {
       "name": "Fuel",
       "image": "/images/sponsors/fuel.svg",
+      "width": 145,
+      "height": 171,
       "link": "https://fuel.network/"
     }
   ],
@@ -44,6 +58,8 @@
     {
       "name": "zkSync",
       "image": "/images/sponsors/zksync.svg",
+      "width": 549,
+      "height": 108,
       "link": "https://zksync.io/"
     }
   ]

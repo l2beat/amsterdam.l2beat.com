@@ -58,7 +58,9 @@ function SponsorItem(props: Sponsor & { className?: string }) {
       <img
         src={props.image}
         alt={`${props.name}`}
-        className="hover:scale-105 transition max-h-full"
+        width={props.width}
+        height={props.height}
+        className="hover:scale-105 transition max-h-full w-auto h-auto"
       />
     </a>
   )
