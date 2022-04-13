@@ -3,6 +3,12 @@
     "name": "Day 1",
     "items": [
       {
+        "start": "09:00",
+        "end": "10:00",
+        "type": "check-in",
+        "title": "Doors open at 9:00, please have tickets ready"
+      },
+      {
         "start": "10:00",
         "end": "10:30",
         "type": "talk",
@@ -22,7 +28,7 @@
         "start": "11:00",
         "end": "11:15",
         "type": "break",
-        "title": "Coffee break"
+        "title": "☕ Coffee break ☕"
       },
       {
         "start": "11:15",
@@ -52,7 +58,7 @@
         "start": "13:00",
         "end": "13:45",
         "type": "break",
-        "title": "Lunch break"
+        "title": "🥪 Lunch break 🥪"
       },
       {
         "start": "13:45",
@@ -90,7 +96,7 @@
         "start": "15:20",
         "end": "15:30",
         "type": "break",
-        "title": "Coffee break"
+        "title": "☕ Coffee break ☕"
       },
       {
         "start": "15:30",
@@ -122,6 +128,12 @@
     "name": "Day 2 - ZK Track",
     "items": [
       {
+        "start": "09:00",
+        "end": "10:00",
+        "type": "check-in",
+        "title": "Doors open at 9:00, please have tickets ready"
+      },
+      {
         "start": "10:00",
         "end": "10:30",
         "type": "talk",
@@ -141,7 +153,7 @@
         "start": "11:00",
         "end": "11:15",
         "type": "break",
-        "title": "Coffee break"
+        "title": "☕ Coffee break ☕"
       },
       {
         "start": "11:15",
@@ -171,7 +183,7 @@
         "start": "12:45",
         "end": "13:45",
         "type": "break",
-        "title": "Lunch break"
+        "title": "🥪 Lunch break 🥪"
       },
       {
         "start": "13:30",
@@ -201,7 +213,7 @@
         "start": "15:15",
         "end": "15:30",
         "type": "break",
-        "title": "Coffee break"
+        "title": "☕ Coffee break ☕"
       },
       {
         "start": "15:30",
@@ -233,6 +245,12 @@
     "name": "Day 2 - Beyond Rollups Track",
     "items": [
       {
+        "start": "09:00",
+        "end": "10:00",
+        "type": "check-in",
+        "title": "Doors open at 9:00, please have tickets ready"
+      },
+      {
         "start": "10:00",
         "end": "10:30",
         "type": "talk",
@@ -252,7 +270,7 @@
         "start": "11:00",
         "end": "11:15",
         "type": "break",
-        "title": "Coffee break"
+        "title": "☕ Coffee break ☕"
       },
       {
         "start": "11:15",
@@ -282,7 +300,7 @@
         "start": "12:45",
         "end": "13:45",
         "type": "break",
-        "title": "Lunch break"
+        "title": "🥪 Lunch break 🥪"
       },
       {
         "start": "13:45",
@@ -312,7 +330,7 @@
         "start": "15:15",
         "end": "15:30",
         "type": "break",
-        "title": "Coffee break"
+        "title": "☕ Coffee break ☕"
       },
       {
         "start": "15:30",
@@ -341,8 +359,14 @@
     ]
   },
   {
-    "name": "Day 2 - Workshops",
+    "name": "Day 2 - Workshops & Discussions",
     "items": [
+      {
+        "start": "09:00",
+        "end": "10:00",
+        "type": "check-in",
+        "title": "Doors open at 9:00, please have tickets ready"
+      },
       {
         "start": "10:00",
         "end": "11:00",
@@ -355,12 +379,12 @@
         "start": "11:00",
         "end": "11:15",
         "type": "break",
-        "title": "Coffee break"
+        "title": "☕ Coffee break ☕"
       },
       {
         "start": "11:15",
         "end": "12:45",
-        "type": "workshop",
+        "type": "panel",
         "speakers": ["TBA"],
         "company": "TBA",
         "title": "L1 and L2 Dev session"
@@ -369,7 +393,7 @@
         "start": "12:45",
         "end": "13:45",
         "type": "break",
-        "title": "Lunch break"
+        "title": "🥪 Lunch break 🥪"
       },
       {
         "start": "13:45",
@@ -383,7 +407,7 @@
         "start": "15:15",
         "end": "15:30",
         "type": "break",
-        "title": "Coffee break"
+        "title": "☕ Coffee break ☕"
       },
       {
         "start": "15:30",

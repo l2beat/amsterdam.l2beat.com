@@ -1,4 +1,4 @@
-import classNames from 'classnames'
+import classnames from 'classnames'
 import React from 'react'
 
 import sponsorsList from '../data/sponsors.json'
@@ -50,7 +50,7 @@ function SponsorItem(props: Sponsor & { className?: string }) {
   return (
     <a
       href={props.link}
-      className={classNames(
+      className={classnames(
         'bg-pure shadow-sm flex items-center justify-center p-2 py-4 md:p-8 rounded-md max-h-[80px] sm:max-h-[120px] md:max-h-[180px]',
         props.className
       )}
