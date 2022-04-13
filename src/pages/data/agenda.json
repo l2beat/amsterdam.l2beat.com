@@ -1,6 +1,7 @@
 [
   {
     "name": "Day 1",
+    "date": "2022-04-19",
     "items": [
       {
         "start": "09:00",
@@ -126,6 +127,7 @@
   },
   {
     "name": "Day 2 - ZK Track",
+    "date": "2022-04-20",
     "items": [
       {
         "start": "09:00",
@@ -186,23 +188,23 @@
         "title": "🥪 Lunch break 🥪"
       },
       {
-        "start": "13:30",
-        "end": "14:00",
+        "start": "13:45",
+        "end": "14:15",
         "type": "talk",
         "speakers": ["Olivier Begassat", "Théodore Chapuis-Chkaiban"],
         "company": "Consensys",
         "title": "A look into the zk-evm"
       },
       {
-        "start": "14:00",
-        "end": "14:30",
+        "start": "14:15",
+        "end": "14:45",
         "type": "talk",
         "speakers": ["Ye Zhang"],
         "company": "Scroll Tech",
         "title": "zkEVM design and optimizations"
       },
       {
-        "start": "14:30",
+        "start": "14:45",
         "end": "15:15",
         "type": "panel",
         "speakers": ["TBA"],
@@ -243,6 +245,7 @@
   },
   {
     "name": "Day 2 - Beyond Rollups Track",
+    "date": "2022-04-20",
     "items": [
       {
         "start": "09:00",
@@ -360,6 +363,7 @@
   },
   {
     "name": "Day 2 - Workshops & Discussions",
+    "date": "2022-04-20",
     "items": [
       {
         "start": "09:00",
