@@ -172,5 +172,11 @@
     "company": "ConsenSys",
     "bio": "Faina Shalts is a Lead Blockchain Engineer at ConsenSys. Since joining in 2018, she has worked on Truffle’s open source tool suite. She now leads the Layer 2/Scaling team at Truffle, seeking to make Layer 2 adoption as easy as possible for developers.",
     "image": "/images/speakers/faina-shalts.jpg"
+  },
+  {
+    "name": "Bartek Kiepuszewski",
+    "company": "L2BEAT",
+    "bio": "Bartek Kiepuszewski is a Blockchain Researcher working for MakerDAO Protocol Engineering team where he is primarily responsible for risk assessment  of various scaling solutions for Ethereum. He is also a co-founder of l2beat.com, the community-focused, vendor-neutral portal educating users about Ethereum Layer2 ecosystem.",
+    "image": "/images/speakers/bartek-kiepuszewski.jpg"
   }
 ]
