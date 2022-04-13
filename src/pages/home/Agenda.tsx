@@ -14,20 +14,20 @@ export function Agenda() {
       className="max-w-[1200px] mx-auto"
       color="yellow"
     >
-      <div className="w-full overflow-auto mt-8">
+      <div className="overflow-auto mt-8 -mx-4 w-[100vw] md:w-full md:mx-0">
         <table id="agenda-table" className="min-w-full">
           <tbody>
             {agenda.map((track, i) => (
               <React.Fragment key={i}>
                 <tr className="">
-                  <th colSpan={3} className="py-10">
+                  <th colSpan={3} className="py-10 px-0">
                     <div className="bg-brand text-pure text-left text-2xl p-4">
                       {track.name}
                     </div>
                   </th>
                 </tr>
                 <tr>
-                  <th className="text-left text-md uppercase py-1 px-2">
+                  <th className="text-left text-md uppercase py-1 px-2 pl-4">
                     Time
                   </th>
                   <th className="text-left text-md uppercase py-1 px-2">
@@ -45,7 +45,7 @@ export function Agenda() {
                       item.type === 'party' && 'bg-[#4e529a] text-pure'
                     )}
                   >
-                    <td className="whitespace-pre font-mono p-2">
+                    <td className="whitespace-pre font-mono p-2 pl-4">
                       {item.start} - {item.end}
                     </td>
                     {!specialTypes.includes(item.type) && (
@@ -83,12 +83,13 @@ export function Agenda() {
                         className="text-center md:text-left md:pl-8"
                       >
                         <a
-                          className="block w-full p-4 text-xl"
+                          className="block w-full py-4 font-bold"
                           href={item.link}
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          {item.title} <small>(click me)</small>
+                          <span className="uppercase">{item.title}</span>{' '}
+                          <small>(click me)</small>
                         </a>
                       </td>
                     )}
