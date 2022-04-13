@@ -26,6 +26,7 @@ module.exports = {
       accent: '#EDAA28',
       white: '#F8FCFF',
       pure: '#FFFFFF',
+      red: '#c41313',
     },
   },
   plugins: [],

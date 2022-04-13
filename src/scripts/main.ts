@@ -1,3 +1,3 @@
-export {}
+import { initLiveBadge } from './live'
 
-console.log('Hello!')
+initLiveBadge()

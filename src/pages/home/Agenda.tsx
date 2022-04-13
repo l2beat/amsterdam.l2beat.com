@@ -13,7 +13,7 @@ export function Agenda() {
       color="yellow"
     >
       <div className="w-full overflow-auto mt-8">
-        <table className="min-w-full">
+        <table id="agenda-table" className="min-w-full">
           <tbody>
             {agenda.map((track, i) => (
               <React.Fragment key={i}>
