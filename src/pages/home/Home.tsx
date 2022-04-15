@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Page } from '../common'
 import { About } from './About'
-import { Agenda } from './Agenda'
+import { Agenda } from './agenda/Agenda'
 import { Banner } from './Banner'
 import { Contact } from './Contact'
 import { Footer } from './Footer'

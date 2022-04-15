@@ -1,4 +1,4 @@
-import agenda from './data/agenda.json'
+import { agenda } from './data/agenda'
 import { renderHomePage } from './home'
 import { outputPages } from './output'
 import { renderTrack } from './tracks'

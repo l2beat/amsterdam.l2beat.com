@@ -1,4 +1,4 @@
-import agenda from '../pages/data/agenda.json'
+import { agenda } from '../pages/data/agenda'
 
 interface TimedItem {
   start: Date

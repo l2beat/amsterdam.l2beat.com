@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Page } from '../common'
-import agenda from '../data/agenda.json'
+import agenda from '../data/agenda'
 import { Logo } from './Logo'
 import { Speakers } from './Speakers'
 import { Title } from './Title'
