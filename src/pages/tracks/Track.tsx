@@ -1,14 +1,14 @@
 import React from 'react'
 
 import { Page } from '../common'
-import agenda from '../data/agenda'
+import { AgendaDay, AgendaItem } from '../data/agenda'
 import { Logo } from './Logo'
 import { Speakers } from './Speakers'
 import { Title } from './Title'
 
 export interface TrackProps {
   id: number
-  track: typeof agenda[number]
+  track: AgendaDay
 }
 
 export function Track({ id, track }: TrackProps) {
@@ -31,7 +31,7 @@ export function Track({ id, track }: TrackProps) {
         >
           <div className="w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
             <Title title={item.title} />
-            <Speakers speakers={item.speakers} />
+            <Speakers speakers={getSpeakers(item)} />
           </div>
           <div className="fixed bottom-16 left-0 w-full text-center text-2xl">
             From {item.start} to {item.end}
@@ -43,7 +43,7 @@ export function Track({ id, track }: TrackProps) {
               </div>
               <div className="text-2xl">{track.items[i + 1].title}</div>
               <div className="text-lg">
-                {track.items[i + 1].speakers?.join(', ')}
+                {getSpeakers(track.items[i + 1])?.join(', ')}
               </div>
             </div>
           )}
@@ -51,4 +51,21 @@ export function Track({ id, track }: TrackProps) {
       ))}
     </Page>
   )
+}
+
+function getSpeakers(item?: AgendaItem) {
+  if (!item) {
+    return undefined
+  }
+  if (
+    item.type === 'check-in' ||
+    item.type === 'break' ||
+    item.type === 'party'
+  ) {
+    return undefined
+  }
+  if (item.type === 'panel') {
+    return [item.host, ...item.speakers]
+  }
+  return item.speakers
 }

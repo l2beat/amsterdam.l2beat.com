@@ -1,6 +1,6 @@
 import React from 'react'
 
-import speakers from '../data/speakers.json'
+import { speakers } from '../data/speakers'
 
 export function Speakers(props: { speakers?: string[] }) {
   if (!props.speakers) {

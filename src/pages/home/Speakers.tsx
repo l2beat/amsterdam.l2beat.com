@@ -1,13 +1,13 @@
 import React from 'react'
 
-import speakerList from '../data/speakers.json'
+import { speakers } from '../data/speakers'
 import { Section } from './Section'
 
 export function Speakers() {
   return (
     <Section id="speakers" title="Speakers" color="pink">
       <ul className="grid max-w-[1200px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 pt-8">
-        {speakerList
+        {speakers
           .sort((a, b) => a.name.localeCompare(b.name))
           .map((speaker, i) => (
             <li className="flex flex-col items-stretch" key={i}>
