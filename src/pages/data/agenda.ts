@@ -297,7 +297,7 @@ export const agenda: AgendaDay[] = [
           'Ohad Barta',
           'Alex Gluchowski',
         ],
-        companies: ['Scroll', 'Polygon Hermez', 'Starkware', 'zkSync'],
+        companies: ['Scroll Tech', 'Polygon Hermez', 'Starkware', 'zkSync'],
         title:
           'Do we need zkEVM equivalence or is EVM compatibility sufficient?',
       },

@@ -29,7 +29,6 @@ export function Speakers() {
             </li>
           ))}
       </ul>
-      <p className="text-xl text-center mt-32">And more!</p>
     </Section>
   )
 }
