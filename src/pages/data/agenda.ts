@@ -189,7 +189,7 @@ export const agenda: AgendaDay[] = [
         type: 'talk',
         speakers: ['Yuan Su'],
         company: 'Metis',
-        title: 'Discord into Discourse: Organizational Infrastructure',
+        title: 'Decentralizing optimistic rollup',
       },
       {
         start: '16:30',
@@ -470,7 +470,7 @@ export const agenda: AgendaDay[] = [
         type: 'workshop',
         speakers: ['Pavel Sinelnikov'],
         company: 'Metis',
-        title: 'Decentralizing optimistic rollup',
+        title: 'Building on Chainstarters',
       },
       {
         start: '11:00',
