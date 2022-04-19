@@ -110,8 +110,14 @@ export const agenda: AgendaDay[] = [
         end: '11:45',
         type: 'panel',
         host: 'Anthony Sassano',
-        speakers: ['Ed Felten', 'Ben Jones', 'Ohad Barta', 'Alex Gluchowski'],
-        companies: ['Arbitrum', 'Optimism', 'StarkWare', 'zkSync'],
+        speakers: [
+          'Ed Felten',
+          'Ben Jones',
+          'Ohad Barta',
+          'Alex Gluchowski',
+          'John Adler',
+        ],
+        companies: ['Arbitrum', 'Optimism', 'StarkWare', 'zkSync', 'Fuel Labs'],
         title: 'Are current rollups sufficiently decentralized?',
       },
       {
