@@ -76,7 +76,16 @@ export function Hero() {
           Pakhuis de Zwijger, Amsterdam
         </a>
       </p>
-      <CtaButton />
+      <div className="aspect-video w-full max-w-[900px] mx-auto drop-shadow-2xl">
+        <iframe
+          src="https://streameth.tv/event/l2-amsterdam/video"
+          className="w-full h-full m-0 border-0"
+          name="myiFrame"
+          scrolling="no"
+          frameBorder="0"
+          allowFullScreen
+        ></iframe>
+      </div>
     </section>
   )
 }
