@@ -329,7 +329,7 @@ export const agenda: AgendaDay[] = [
         type: 'talk',
         speakers: ['Alexey Pertsev'],
         company: 'TornadoCash',
-        title: 'Choosing an L2 solution for the Tornado Cash Nova dapp',
+        title: 'Finding a production ready L2 solution',
       },
     ],
   },
