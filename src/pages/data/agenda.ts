@@ -120,7 +120,7 @@ export const agenda: AgendaDay[] = [
         type: 'talk',
         speakers: ['Ohad Barta'],
         company: 'StarkWare',
-        title: 'StarkNet New Horizons',
+        title: 'The Rise of L2-Native dApps',
       },
       {
         start: '12:15',
