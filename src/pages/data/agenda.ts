@@ -302,6 +302,7 @@ export const agenda: AgendaDay[] = [
           'Jordi Baylina',
           'Ohad Barta',
           'Alex Gluchowski',
+          'Nicolas Liochon'
         ],
         companies: ['Scroll Tech', 'Polygon Hermez', 'Starkware', 'zkSync'],
         title:
