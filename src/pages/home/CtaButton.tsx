@@ -2,8 +2,11 @@ import React from 'react'
 
 export function CtaButton() {
   return (
-    <span className="text-white bg-brand px-4 py-2 text-xl rounded-md opacity-50 cursor-not-allowed select-none">
-      Ticket applications closed
-    </span>
+    <a
+      href="https://streameth.tv/event/l2-amsterdam-2/"
+      className="text-white bg-brand px-4 py-2 text-xl rounded-md"
+    >
+      Watch LIVE on streameth.tv
+    </a>
   )
 }
