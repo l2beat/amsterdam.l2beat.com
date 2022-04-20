@@ -21,7 +21,7 @@ export function Agenda() {
                 <tr className="">
                   <th colSpan={3} className="py-10 px-0">
                     <div className="bg-brand text-pure text-left text-2xl p-4">
-                      {track.name}
+                      {track.name} - {track.room}
                     </div>
                   </th>
                 </tr>

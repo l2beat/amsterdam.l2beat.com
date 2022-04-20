@@ -1,6 +1,7 @@
 export interface AgendaDay {
   name: string
   date: string
+  room: string
   items: AgendaItem[]
 }
 
@@ -76,6 +77,7 @@ export const agenda: AgendaDay[] = [
   {
     name: 'Day 1',
     date: '2022-04-19',
+    room: 'Grote zaal',
     items: [
       {
         start: '09:00',
@@ -217,6 +219,7 @@ export const agenda: AgendaDay[] = [
   {
     name: 'Day 2 - ZK Track',
     date: '2022-04-20',
+    room: 'Grote zaal',
     items: [
       {
         start: '09:00',
@@ -302,9 +305,15 @@ export const agenda: AgendaDay[] = [
           'Jordi Baylina',
           'Ohad Barta',
           'Alex Gluchowski',
-          'Nicolas Liochon'
+          'Nicolas Liochon',
         ],
-        companies: ['Scroll Tech', 'Polygon Hermez', 'Starkware', 'zkSync', 'Consensys'],
+        companies: [
+          'Scroll Tech',
+          'Polygon Hermez',
+          'Starkware',
+          'zkSync',
+          'Consensys',
+        ],
         title:
           'Do we need zkEVM equivalence or is EVM compatibility sufficient?',
       },
@@ -343,6 +352,7 @@ export const agenda: AgendaDay[] = [
   {
     name: 'Day 2 - Beyond Rollups Track',
     date: '2022-04-20',
+    room: 'Ijzaal',
     items: [
       {
         start: '09:00',
@@ -464,6 +474,7 @@ export const agenda: AgendaDay[] = [
   {
     name: 'Day 2 - Workshops & Discussions',
     date: '2022-04-20',
+    room: 'Studio',
     items: [
       {
         start: '09:00',
