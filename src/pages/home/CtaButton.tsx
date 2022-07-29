@@ -4,10 +4,10 @@ export function CtaButton() {
   return (
     <div className="flex gap-4">
       <a
-        href="https://streameth.tv/event/l2-amsterdam/"
+        href="https://www.youtube.com/channel/UCDrl-fNXFjOoykr4lQij9BA"
         className="text-white bg-brand px-4 py-2 text-xl rounded-md"
       >
-        Watch on streameth.tv
+        Watch recordings on YouTube
       </a>
     </div>
   )
