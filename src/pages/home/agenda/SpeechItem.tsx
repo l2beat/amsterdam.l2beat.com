@@ -29,6 +29,20 @@ export function SpeechItem({ item }: SpeechItemProps) {
           </>
         )}
         {item.title}
+        {item.type === 'panel' ||
+          (item.type === 'talk' && item.link && (
+            <>
+              {' '}
+              <a
+                className="text-sm font-bold bg-brand text-white whitespace-nowrap px-2"
+                target="blank"
+                rel="noopener noreferrer"
+                href={item.link}
+              >
+                <span className="sr-only">Watch on </span>YouTube
+              </a>
+            </>
+          ))}
       </td>
     </>
   )
