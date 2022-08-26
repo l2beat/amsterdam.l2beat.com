@@ -218,6 +218,7 @@ export const agenda: AgendaDay[] = [
         speakers: ['Hadrien Croubois'],
         company: 'OpenZeppelin',
         title: 'Cross chain operations made easy with OpenZeppelin',
+        link: 'https://www.youtube.com/watch?v=KCc0nO6R2WM',
       },
       {
         start: '17:00',
